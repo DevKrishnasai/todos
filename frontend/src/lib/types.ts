@@ -3,6 +3,12 @@ export interface IUser {
   password: string;
 }
 
+export interface IResponse {
+  _id: string;
+  username: string;
+  message: string;
+}
+
 export interface ITask {
   _id: string;
   userId: string;
@@ -11,4 +17,5 @@ export interface ITask {
   completed: boolean;
   expireTime: Date;
   prority: "LOW" | "MEDIUM" | "HIGH";
+  category: string;
 }

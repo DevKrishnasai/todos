@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ITask } from "../helpers/types";
+import { ITask } from "../lib/types";
 
 const API_URL = import.meta.env.BACKEND_URL;
 
